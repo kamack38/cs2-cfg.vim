@@ -2610,7 +2610,7 @@ syn keyword CS2Key kp_9
 syn keyword CS2Key kp_enter
 syn keyword CS2Key kp_0
 syn keyword CS2Key kp_del
-syn keyword CS2Key kp_slash
+syn keyword CS2Key kp_divide
 syn keyword CS2Key kp_multiply
 syn keyword CS2Key kp_minus
 syn keyword CS2Key kp_plus
