@@ -7,8 +7,8 @@ set cpo&vim
 
 syn match CS2Comment "//.*$"
 
-syntax region CS2String matchgroup=CS2StringDelimiter start=/"/ skip=/\\\\\|\\"/ end=/"/ contains=@CSGOExpr
-syntax region CS2String matchgroup=CS2StringDelimiter start=/'/ skip=/\\\\\|\\'/ end=/'/ contains=@CSGOExpr
+syntax region CS2String matchgroup=CS2StringDelimiter start=/"/ skip=/\\\\\|\\"/ end=/"/ contains=@CS2Expr
+syntax region CS2String matchgroup=CS2StringDelimiter start=/'/ skip=/\\\\\|\\'/ end=/'/ contains=@CS2Expr
 
 syntax match CS2Number "\v\c<[-+]?\d*\.?\d*%([eE][-+]?\d+)?>"
 syntax match CS2Number "\v\c<[-+]?0x[0-9A-F]*\.?[0-9A-F]*>"
